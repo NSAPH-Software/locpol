@@ -362,7 +362,7 @@ locPolWeights <- function (x, xeval, deg, bw, kernel,
 }
 
 
-.maxEvalPts <- 5000
+#.maxEvalPts <- 5000
 .lokestOptInt <- c(0.0005,1.5)
 
 selKernel <- function(kernel)
